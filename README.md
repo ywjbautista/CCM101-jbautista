@@ -2,8 +2,8 @@
 
 ## Student Information
 **Name:** Joeylyn Bautista  
-**Course:** Bachelor of Science in Information Technology  
-**Subject:** CCM101 - Cloud Computing  
+**Program:** Bachelor of Science in Information Technology  
+**Course:** CCM101 - Cloud Computing  
 
 ## About This Repository
 Hello! I am Joeylyn Bautista, an Information Technology student. This repository serves as my Cloud Computing Laboratory Portfolio for CCM101.
