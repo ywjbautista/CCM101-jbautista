@@ -47,6 +47,4 @@ I improved my understanding of the similarities and differences among AWS, Micro
 
 ## Challenges Encountered
 
-One challenge I encountered was becoming familiar with Linux commands and understanding the information displayed by each command. Some command outputs contained several technical details, so I had to carefully identify the specific information required for the laboratory activity.
-
-Another challenge was understanding how the different cloud infrastructure components are connected. Creating the cloud architecture diagram helped me visualize how a user connects through the internet and network to access compute and storage resources.
+One challenge I encountered was understanding how the different cloud infrastructure components are connected to one another. I initially found it difficult to visualize how the user, internet connection, network, compute resource, and storage resource work together in one cloud environment. Creating the cloud infrastructure diagram helped me understand the connection and purpose of each component more clearly.
