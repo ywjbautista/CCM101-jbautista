@@ -34,7 +34,7 @@ Microsoft Entra ID is Microsoft's cloud-based identity and access management ser
 
 ## Typical Enterprise Use Cases
 
-Enterprises can use Azure for hosting applications, running virtual machines, storing data, managing identities, creating cloud networks, supporting hybrid environments, and moving existing business systems to the cloud.
+Enterprises can use Azure for hosting applications, running virtual machines, storing data, managing identities, creating cloud networks, supporting hybrid environments, and moving existing business systems to the cloud. 
 
 ## Screenshot Evidence
 
