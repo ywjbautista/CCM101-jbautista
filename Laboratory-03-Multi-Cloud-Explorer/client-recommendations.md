@@ -67,3 +67,14 @@ For this company, I would prioritize availability and the ability to handle chan
 - Amazon EC2
 - Elastic Load Balancing
 - Amazon EC2 Auto Scaling
+
+# Cloud Provider Decision Matrix
+
+| Business Requirement | Recommended Platform | Justification |
+|---|---|---|
+| Startup Company | Google Cloud | Suitable for startups that need a flexible cloud environment that can grow as their applications and user base expand. |
+| Enterprise Organization | AWS | Offers a broad range of cloud services that can support different enterprise workloads and large-scale infrastructure requirements. |
+| Microsoft Environment | Microsoft Azure | Integrates well with Microsoft technologies and is suitable for organizations already using Microsoft-based systems and services. |
+| AI / Machine Learning | Google Cloud | Provides specialized AI and machine learning services for developing, training, and deploying intelligent applications. |
+| Kubernetes Deployment | Google Cloud | Provides Google Kubernetes Engine (GKE), a managed environment for deploying and managing containerized applications with Kubernetes. |
+| Global Web Application | AWS | Its global infrastructure and scalable services can support web applications serving users from different geographic locations. |
