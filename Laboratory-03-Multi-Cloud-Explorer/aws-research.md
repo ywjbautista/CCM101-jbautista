@@ -36,6 +36,3 @@ AWS Identity and Access Management (IAM) helps manage access to AWS services and
 
 AWS can be used by enterprises for hosting websites and applications, storing and backing up data, running databases, managing cloud networks, and supporting scalable business workloads.
 
-## Screenshot Evidence
-
-![AWS Official Homepage](screenshots/aws-homepage.png)
