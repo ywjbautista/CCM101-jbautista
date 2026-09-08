@@ -36,6 +36,3 @@ Cloud Identity and Access Management (IAM) helps organizations control access to
 
 Enterprises can use Google Cloud for hosting applications, running virtual machines, storing data, supporting data analytics and artificial intelligence workloads, managing cloud networks, and deploying scalable applications.
 
-## Screenshot Evidence
-
-![Google Cloud Official Homepage](screenshots/gcp-homepage.png)
