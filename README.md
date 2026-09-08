@@ -13,4 +13,4 @@ It contains my laboratory activities, documentation, system information, reflect
 ## Laboratory Activities
 - Laboratory 01: Welcome to the Cloud
 - Laboratory 02: Build the Cloud Infrastructure Blueprint
-  
+- Laboratory 03: Multi Cloud Explorer  
