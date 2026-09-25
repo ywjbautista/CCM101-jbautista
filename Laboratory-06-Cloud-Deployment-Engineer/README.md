@@ -14,11 +14,12 @@ This laboratory focused on deploying a multi-tier cloud application using Docker
 
 ## Commands Executed
 
-```bash
 docker-compose up -d
+
 docker-compose ps
+
 docker-compose down
 
 ## Skills Learned
 
-I learned how to use Docker Compose to deploy and manage multiple containers as one application. I also learned how an application container can communicate with a database container using the service name defined in Docker Composed
+I learned how to use Docker Compose to deploy and manage multiple containers as one application. I also learned how an application container can communicate with a database container using the service name defined in the Docker Compose file.
