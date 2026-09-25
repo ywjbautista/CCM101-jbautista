@@ -1,21 +1,9 @@
 # Laboratory 06 Reflection
 
-## 1. What did you learn about multi-tier applications?
+This laboratory helped me understand how multi-tier applications can be deployed and managed using Docker Compose. I learned that a multi-tier application separates different parts of the system into different services. In our deployment, Nextcloud served as the application tier while MariaDB served as the database tier. Separating these services makes the application easier to organize and manage because each container has a specific role.
 
-I learned that a multi-tier application separates different parts of the system into different services. In this laboratory, Nextcloud served as the application tier while MariaDB served as the database tier.
+Docker Compose was useful because it allowed me to configure and manage the application and database containers using one Docker Compose file. Instead of starting each container separately, I could use commands such as docker-compose up -d to start the services together, docker-compose ps to check their status, and docker-compose down to stop and remove the deployment. I also learned that the database container is important because it stores and manages the data needed by the Nextcloud application.
 
-## 2. Why is Docker Compose useful for multi-container applications?
+One challenge I encountered during the activity was making sure that I was working in the correct directory when using Docker Compose commands. I initially had difficulty because the docker-compose.yml file was inside the nextcloud-deployment folder. This taught me to check my current directory and locate the configuration file before running commands. I also learned that both the application and database containers need to be running for the multi-tier application to work properly.
 
-Docker Compose is useful because it allows multiple containers to be configured and managed together using one configuration file. It makes starting and stopping the application easier.
-
-## 3. What role does the database container play?
-
-The database container stores and manages the data needed by the application. In this laboratory, MariaDB provided the database service for Nextcloud.
-
-## 4. What challenges did you encounter?
-
-One challenge I encountered was making sure that the Docker Compose commands were executed in the correct directory. I also learned that the application and database containers must both be running for the multi-tier application to work properly.
-
-## 5. How could this architecture be improved?
-
-The architecture could be improved by adding more security, proper data backups, and persistent storage. These improvements would help protect the application and its data in a real cloud deployment.
+Overall, this activity improved my understanding of containerized applications and cloud deployment. I learned how application and database services can work together through Docker Compose. If this architecture were used in a real cloud environment, it could be improved by adding stronger security, proper data backups, and persistent storage. These improvements would help protect the application and its data while making the deployment more reliable and suitable for actual use. This experience also showed me the importance of following deployment steps carefully, checking container status, and documenting the results through screenshots so that the work can be reviewed and understood clearly by others later.
