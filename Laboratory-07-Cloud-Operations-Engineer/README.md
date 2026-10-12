@@ -1,28 +1,27 @@
-
 # Laboratory 07 - Cloud Operations Engineer
 
 ## Mission Overview
 
-This laboratory focused on checking Linux server resources and observing a containerized Nginx website. Linux commands and Docker tools were used to review system health, generate web requests, inspect application logs, and monitor container performance.
+This laboratory focused on checking Linux host resources and monitoring a containerized Nginx website. The activity involved checking system memory and disk storage, deploying a container, generating web traffic, reviewing application logs, and observing container metrics.
 
 ## Objectives
 
 - Check the host's memory and disk capacity.
-- Observe running processes and CPU activity.
-- Deploy an Nginx web server using Docker.
-- Generate successful HTTP requests and a 404 error.
-- Review application logs and live container metrics.
+- Observe running processes using `top`.
+- Deploy an Nginx container using Docker.
+- Generate successful HTTP requests and a 404 response.
+- Inspect application logs and monitor container resource usage.
 
 ## Monitoring Commands Executed
 
-- `free -h` - check memory.
-- `df -h /` - check root filesystem storage.
-- `top` - observe processes and CPU activity.
-- `docker run -d --name client-website -p 8080:80 nginx` - deploy Nginx.
-- `curl` - send HTTP requests.
-- `docker logs client-website` - view application logs.
-- `docker stats` - monitor live container resource usage.
+- `free -h` - checks memory usage and availability.
+- `df -h /` - checks root filesystem storage.
+- `top` - displays running processes and CPU activity.
+- `docker run -d --name client-website -p 8080:80 nginx` - starts the Nginx container.
+- `curl` - sends HTTP requests to the website.
+- `docker logs client-website` - displays container logs.
+- `docker stats` - displays live container resource metrics.
 
 ## Skills Learned
 
-I practiced checking Linux system resources, starting a Docker container, generating web traffic, finding an HTTP error in application logs, and observing container CPU and memory usage.
+I practiced checking Linux system resources, deploying an Nginx container, generating HTTP requests, identifying a 404 response in application logs, and monitoring CPU and memory usage with Docker.
