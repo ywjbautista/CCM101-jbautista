@@ -17,3 +17,5 @@ It contains my laboratory activities, documentation, system information, reflect
 - Laboratory 04: Cloud-Native Engineer
 - Laboratory 05: Cloud Data Engineer
 - Laboratory 06: Cloud Deployment Engineer
+- Laboratory 08: Cloud Security Engineer
+- Laboratory 09: Cloud Automation Engineer
