@@ -1,0 +1,9 @@
+# Mission Reflection — The Cloud Automation Engineer
+
+Automation is important in cloud computing because managing hundreds of servers manually takes time and can lead to human errors. By using scripts and scheduled tasks, cloud engineers can perform repetitive activities, such as backups, more efficiently and consistently. However, automation also has risks. A destructive typo in a script running on 1,000 servers could cause data loss or service interruptions. That is why scripts must be reviewed, tested, and monitored before being used on many systems.
+
+Writing a Bash script was different from creating a Docker Compose YAML file in Mission 6. Bash uses commands to perform tasks step by step, such as creating directories and compressing files. Docker Compose YAML, on the other hand, defines how containers and application services are configured. Although they serve different purposes, both tools help make cloud operations more efficient.
+
+From Laboratory 1 to Laboratory 9, my understanding of cloud computing has grown from learning basic Linux commands and organizing a GitHub portfolio to practicing deployment, monitoring, security, and automation. I learned that managing cloud systems involves more than making applications run; it also requires keeping them reliable, secure, and well-maintained.
+
+Among the cloud engineering roles, I enjoyed the Cloud Security Engineer role the most because it helped me understand how firewall rules and access controls protect servers from unauthorized connections. This experience showed me that security and automation are both important in managing cloud infrastructure. Overall, the laboratory activities helped me develop my technical knowledge and understand how different cloud engineering responsibilities work together to maintain reliable and secure systems.
